@@ -8,7 +8,7 @@ class Auth {
     required String password,
   }) async {
     UserCredential userCredential = await FirebaseAuth.instance
-    .signInWithEmailAndPassword(email: email, password: password);
+        .signInWithEmailAndPassword(email: email, password: password);
     return userCredential.user;
   }
 
@@ -16,11 +16,11 @@ class Auth {
     await FirebaseAuth.instance.signOut();
   }
 
-  static Future<void> createAccount({ 
+  static Future<void> createAccount({
     required String email,
     required String password,
-  }) async {  
+  }) async {
     await FirebaseAuth.instance
-    .createUserWithEmailAndPassword(email: email, password: password);
+        .createUserWithEmailAndPassword(email: email, password: password);
   }
 }

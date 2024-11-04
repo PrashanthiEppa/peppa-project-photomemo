@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372685531168",
+    "project_id": "photo-memo-f4c32",
+    "storage_bucket": "photo-memo-f4c32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372685531168:android:10d678c275103f325bb445",
+        "android_client_info": {
+          "package_name": "com.photomemo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-5V_WpK-cjLnj9KEWo9Wba0UjpksXxnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
