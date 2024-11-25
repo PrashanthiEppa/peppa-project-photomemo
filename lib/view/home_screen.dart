@@ -8,6 +8,7 @@ import 'package:photo_memo/model/photo_memo_model.dart';
 import 'package:photo_memo/view/detailview_screen.dart';
 import 'package:photo_memo/view/utilities.dart';
 import 'package:photo_memo/view/webimage.dart';
+import 'package:photo_memo/view/sharedwith_screen.dart';
 
 class HomeWiget extends StatefulWidget {
   const HomeWiget({Key? key}) : super(key: key);
@@ -217,7 +218,7 @@ class _Controller {
   }
 
   void sharedWith() {
-    //Navigator.popAndPushNamed(state.context, SharedWithScreen.routeName);
+    Navigator.popAndPushNamed(state.context, SharedWithScreen.routeName);
     // navigate to ShareWith Screen
   }
 

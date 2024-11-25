@@ -11,6 +11,14 @@ class FirestoreController {
     return ref.id;
   }
 
+  static Future<void> updatePhotoMemo(
+      {required String docId, required Map<String, dynamic> update}) async {
+    await FirebaseFirestore.instance
+        .collection(photoMemoCollection)
+        .doc(docId)
+        .update(update);
+  }
+
   static Future<List<PhotoMemo>> getPhotoMemoList({
     required String email,
   }) async {
@@ -28,14 +36,6 @@ class FirestoreController {
       }
     }
     return result;
-  }
-
-  static Future<void> updatePhotoMemo(
-      {required String docId, required Map<String, dynamic> update}) async {
-    await FirebaseFirestore.instance
-        .collection(photoMemoCollection)
-        .doc(docId)
-        .update(update);
   }
 
   static Future<List<PhotoMemo>> getSharedWithList(

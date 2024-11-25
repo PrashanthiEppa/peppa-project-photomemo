@@ -7,6 +7,7 @@ import 'package:photo_memo/view/error_screen.dart';
 import 'package:photo_memo/view/sign_up_screen.dart';
 import 'package:photo_memo/view/startdispatcher.dart';
 import 'package:photo_memo/view/createphotomemo_screen.dart';
+import 'package:photo_memo/view/sharedwith_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +30,7 @@ class PhotoMemoApp extends StatelessWidget {
         SignUpWidget.routeName: (context) => const SignUpWidget(),
         CreatePhotoMemoScreen.routeName: (context) =>
             const CreatePhotoMemoScreen(),
-        //  SharedWithScreen.routeName: (context) => const SharedWithScreen(),
+        SharedWithScreen.routeName: (context) => const SharedWithScreen(),
         DetailViewScreen.routeName: (context) {
           Object? args = ModalRoute.of(context)?.settings.arguments;
           if (args == null) {
