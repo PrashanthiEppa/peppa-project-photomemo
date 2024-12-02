@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBtmMTfe1pstuUo9ZN1H3DFinEebWk9qlA',
-    appId: '1:372685531168:web:25526969f045dbd15bb445',
-    messagingSenderId: '372685531168',
-    projectId: 'photo-memo-f4c32',
-    authDomain: 'photo-memo-f4c32.firebaseapp.com',
-    storageBucket: 'photo-memo-f4c32.appspot.com',
-    measurementId: 'G-ML4DGPVNQD',
+    apiKey: 'AIzaSyCEBdXcTzGLUT5w-QHRepLKIriXmFjgOJc',
+    appId: '1:556747256813:web:02d6fdd4bd2e5c00f0ade4',
+    messagingSenderId: '556747256813',
+    projectId: 'photo-memo-7ffdd',
+    authDomain: 'photo-memo-7ffdd.firebaseapp.com',
+    storageBucket: 'photo-memo-7ffdd.firebasestorage.app',
+    measurementId: 'G-XJ0TE08WJV',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB-5V_WpK-cjLnj9KEWo9Wba0UjpksXxnM',
-    appId: '1:372685531168:android:10d678c275103f325bb445',
-    messagingSenderId: '372685531168',
-    projectId: 'photo-memo-f4c32',
-    storageBucket: 'photo-memo-f4c32.appspot.com',
+    apiKey: 'AIzaSyDN4Diez_NNSfnwTGAs913f9iPO27onr2Y',
+    appId: '1:556747256813:android:f2138fed3bc3e235f0ade4',
+    messagingSenderId: '556747256813',
+    projectId: 'photo-memo-7ffdd',
+    storageBucket: 'photo-memo-7ffdd.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBLasR8cS5PX_e8cqyTMScJ2VDBV2Ro_mc',
-    appId: '1:372685531168:ios:964106cb8d5ab3285bb445',
-    messagingSenderId: '372685531168',
-    projectId: 'photo-memo-f4c32',
-    storageBucket: 'photo-memo-f4c32.appspot.com',
+    apiKey: 'AIzaSyBM0pjHj6J2ap1WVOB1K2lR4_sgwjWrLLU',
+    appId: '1:556747256813:ios:3b105e1f4c03233cf0ade4',
+    messagingSenderId: '556747256813',
+    projectId: 'photo-memo-7ffdd',
+    storageBucket: 'photo-memo-7ffdd.firebasestorage.app',
     iosBundleId: 'com.example.photoMemo',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBLasR8cS5PX_e8cqyTMScJ2VDBV2Ro_mc',
-    appId: '1:372685531168:ios:964106cb8d5ab3285bb445',
-    messagingSenderId: '372685531168',
-    projectId: 'photo-memo-f4c32',
-    storageBucket: 'photo-memo-f4c32.appspot.com',
+    apiKey: 'AIzaSyBM0pjHj6J2ap1WVOB1K2lR4_sgwjWrLLU',
+    appId: '1:556747256813:ios:3b105e1f4c03233cf0ade4',
+    messagingSenderId: '556747256813',
+    projectId: 'photo-memo-7ffdd',
+    storageBucket: 'photo-memo-7ffdd.firebasestorage.app',
     iosBundleId: 'com.example.photoMemo',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBtmMTfe1pstuUo9ZN1H3DFinEebWk9qlA',
-    appId: '1:372685531168:web:93acccd3003d1cd65bb445',
-    messagingSenderId: '372685531168',
-    projectId: 'photo-memo-f4c32',
-    authDomain: 'photo-memo-f4c32.firebaseapp.com',
-    storageBucket: 'photo-memo-f4c32.appspot.com',
-    measurementId: 'G-4NWHEGX177',
+    apiKey: 'AIzaSyCEBdXcTzGLUT5w-QHRepLKIriXmFjgOJc',
+    appId: '1:556747256813:web:d12c4d5a865eae81f0ade4',
+    messagingSenderId: '556747256813',
+    projectId: 'photo-memo-7ffdd',
+    authDomain: 'photo-memo-7ffdd.firebaseapp.com',
+    storageBucket: 'photo-memo-7ffdd.firebasestorage.app',
+    measurementId: 'G-KT83CKS1YW',
   );
+
 }

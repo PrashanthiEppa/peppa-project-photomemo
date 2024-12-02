@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "372685531168",
-    "project_id": "photo-memo-f4c32",
-    "storage_bucket": "photo-memo-f4c32.appspot.com"
+    "project_number": "556747256813",
+    "project_id": "photo-memo-7ffdd",
+    "storage_bucket": "photo-memo-7ffdd.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:372685531168:android:10d678c275103f325bb445",
+        "mobilesdk_app_id": "1:556747256813:android:f2138fed3bc3e235f0ade4",
         "android_client_info": {
           "package_name": "com.photomemo.app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB-5V_WpK-cjLnj9KEWo9Wba0UjpksXxnM"
+          "current_key": "AIzaSyDN4Diez_NNSfnwTGAs913f9iPO27onr2Y"
         }
       ],
       "services": {
