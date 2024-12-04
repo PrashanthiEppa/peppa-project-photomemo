@@ -105,7 +105,7 @@ class _Controller {
   Future<void> loadSharedWithList() async {
     try {
       state.screenModel.sharedWithList =
-          (await FirestoreController.getPhotoMemoList(
+          (await FirestoreController.getSharedWithList(
               email: state.screenModel.user.email!));
       // await Future.delayed(const Duration(seconds: 3)); // testing
       state.render(() {
